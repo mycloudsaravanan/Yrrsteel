@@ -33,7 +33,7 @@ export default function Header() {
       sx={{
         fontWeight: location.pathname === item.path ? 700 : 500,
         borderBottom: location.pathname === item.path ? '2px solid white' : 'none',
-        borderRadius: 0,
+        borderRadius: 0, mx : 1,
       }}
     >
       {item.label}
